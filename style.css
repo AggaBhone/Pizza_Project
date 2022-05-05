@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+/*---- Header style ----*/
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(30, 30, 30, 0.75),rgba(30, 30, 30,0.75)),url(images/pizza.jpg.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+.content{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    text-align: right;
+}
+.navbar{
+    width: 100%;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 30px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.navbar ul li a:hover{
+    padding: 15px 25px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 25px;
+    background-color: #d43e55;
+    text-decoration: none;
+
+}
+button{
+    width: 150px;
+    padding: 15px 0;
+    border: 2px solid red;
+    margin: 10px 20px 10px 0;
+    background-color: transparent;
+    color: #fff;
+}
+button:hover{
+    color: #d43e55;
+    border-radius: 0px 25px;
+    background-color: #0fa
+}
+.btn-order{
+    background-color: #d43e55;
+}
+.btn-order:hover{
+    background-color: transparent;
+}
+/*Content Style*/
+.main-content{
+    width: 100%;
+    background-color: rgb(255, 145, 0);
+}
+.main-content h1{
+    text-align: center;
+    padding: 30px 0 0;
+    font-family: 'Assistant', sans-serif;
+    font-size: 2.2em;
+}
+.main-content hr{
+    margin: 5px auto 0;
+    width: 10%;
+    border-top: 3px solid rgb(90, 42, 9);
+}
+.content-section{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    padding: 50px 80px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 145, 0);
+}
+.content-section .col{
+    text-align: center;
+    margin: 0 30px;
+}
+.pic{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    margin-bottom: 30px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.content-section .col p{
+    font-family: 'Assistant', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+}
+.content-section .col h3{
+    text-transform: uppercase;
+    margin: 30px 0;
+    font-size: 1em;
+    font-family: 'Assistant', sans-serif;
+    font-weight: bold;
+}
+/*Footer Style*/
+.footer{
+    width: 100vw;
+    background: #666;
+    color: #fff;
+    padding: 40px 0 0;
+    position: absolute;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    font-size: 14px;
+    line-height: 28px;
+    max-width: 800px;
+    margin: 10px auto;
+}
+.social-link{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0 3rem ;
+}
+.social-link li a :hover{
+    color: aquamarine;
+
+    color: #fff;
+
+        text-shadow:
+
+          0 0 7px #fff,
+
+          0 0 10px #fff,
+
+          0 0 21px #fff,
+
+          0 0 42px #0fa,
+
+          0 0 82px #0fa,
+
+          0 0 92px #0fa,
+
+          0 0 102px #0fa,
+
+          0 0 151px #0fa;
+}
+.footer-bottom{
+    background: rgb(44, 41, 41);
+    margin: 10px auto;
+    text-align: center;
+}
+.social-link li{
+    margin: 0 10px;
+}
+.footer-content{
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
